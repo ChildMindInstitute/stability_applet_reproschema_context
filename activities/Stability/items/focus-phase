@@ -112,7 +112,7 @@
     {
       "@type": "schema:Text",
       "schema:name": "userInputType",
-      "schema:value": "gyroscope"
+      "schema:value": "touch"
     },
     {
       "@type": "schema:Double",
