@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "Stability": "https://raw.githubusercontent.com/mtg137/Stability_tracker_applet_touch/master/activities/Stability/",
+    "instructions": {
+      "@id": "Stability:items/instructions",
+      "@type": "@id"
+    },
+    "challenge-phase-instructions": {
+      "@id": "Stability:items/challenge-phase-instructions",
+      "@type": "@id"
+    },
+    "challenge-phase": {
+      "@id": "Stability:items/challenge-phase",
+      "@type": "@id"
+    },
+    "focus-phase-instructions": {
+      "@id": "Stability:items/focus-phase-instructions",
+      "@type": "@id"
+    },
+    "focus-phase": {
+      "@id": "Stability:items/focus-phase",
+      "@type": "@id"
+    }
+  }
+}

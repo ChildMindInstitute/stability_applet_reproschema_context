@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/mtg137/Stability_tracker_applet_touch/master/activities/Stability/Stability_context"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "stability_schema",
+  "skos:prefLabel": "Stability tracker",
+  "schema:description": "This activity contains Stability tracker item.",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "instructions",
+        "isAbout": "instructions",
+        "isVis": true
+      },
+      {
+        "variableName": "challenge-phase-instructions",
+        "isAbout": "challenge-phase-instructions",
+        "isVis": true
+      },
+      {
+        "variableName": "challenge-phase",
+        "isAbout": "challenge-phase",
+        "isVis": true
+      },
+      {
+        "variableName": "focus-phase-instructions",
+        "isAbout": "focus-phase-instructions",
+        "isVis": true
+      },
+      {
+        "variableName": "focus-phase",
+        "isAbout": "focus-phase",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "instructions",
+      "challenge-phase-instructions",
+      "challenge-phase",
+      "focus-phase-instructions",
+      "focus-phase"
+    ],
+    "allow": [
+      "skipped",
+      "dontKnow"
+    ]
+  }
+}

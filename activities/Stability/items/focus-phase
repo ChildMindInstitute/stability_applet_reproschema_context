@@ -1,0 +1,123 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "continuous-phase",
+  "skos:prefLabel": "Stability Tracker",
+  "skos:altLabel": "Stability Tracker",
+  "schema:description": "Stability Tracker Practice",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "stabilityTracker",
+    "allow": ["autoAdvance"]
+  },
+  "inputOptions": [
+    {
+      "@type": "schema:Number",
+      "schema:name": "maxOffTargetTime",
+      "schema:numberOfItems": 15
+    },
+    {
+      "@type": "schema:Number",
+      "schema:name": "numTestTrials",
+      "schema:value": 10
+    },
+    {
+      "@type": "schema:Text",
+      "schema:name": "taskMode",
+      "schema:value": "pseudo_stair"
+    },
+    {
+      "@type": "schema:Number",
+      "schema:name": "trackingDims",
+      "schema:value": 2
+    },
+    {
+      "@type": "schema:Boolean",
+      "schema:name": "showScore",
+      "schema:value": true
+    },
+    {
+      "@type": "schema:Text",
+      "schema:name": "phaseType",
+      "schema:value": "focus-phase"
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "lambdaSlope",
+      "schema:value": 3
+    },
+    {
+      "@type": "schema:Text",
+      "schema:name": "basisFunc",
+      "schema:value": "zeros_1d"
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "noiseLevel",
+      "schema:value": 0
+    },
+{
+      "@type": "schema:Double",
+      "schema:name": "taskLoopRate",
+      "schema:value": 0.0167
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "cyclesPerMin",
+      "schema:value": 2
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "durationMins",
+      "schema:value": 5
+    },
+    {
+      "@type": "schema:Number",
+      "schema:name": "trialNumber",
+      "schema:value": 0
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "oobDuration",
+      "schema:value": 0.2,
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "initialLambda",
+      "schema:value": 0.075
+    },
+    {
+      "@type": "schema:Boolean",
+      "schema:name": "showPreview",
+      "schema:value": true
+    },
+    {
+      "@type": "schema:Number",
+      "schema:name": "numPreviewStim",
+      "schema:value": 0
+    },
+    {
+      "@type": "schema:Number",
+      "schema:name": "previewStepGap",
+      "schema:value": 100
+    },
+    {
+      "@type": "schema:Number",
+      "schema:name": "dimensionCount",
+      "schema:value": 1
+    },
+    {
+      "@type": "schema:Text",
+      "schema:name": "userInputType",
+      "schema:value": "gyroscope"
+    },
+    {
+      "@type": "schema:Double",
+      "schema:name": "maxRad",
+      "schema:value": 0.26167
+    }
+  ]
+}
