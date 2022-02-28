@@ -3,7 +3,7 @@
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
     "https://raw.githubusercontent.com/mtg137/Stability_tracker_applet_touch/master/activities/Stability/Stability_context"
   ],
-  "@type": "reproschema:Activity",
+  "@type": "reproschema:CST_TOUCH",
   "@id": "stability_schema",
   "skos:prefLabel": "Stability_Task_touch",
   "schema:description": "This activity contains Stability tracker item.",
